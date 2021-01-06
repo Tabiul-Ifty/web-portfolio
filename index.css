@@ -29,11 +29,16 @@ p{
 
 .half-section{
     width: 40%;
+    height: 500px;
+    display: inline-block;
     float: left;
     margin-left: 5%;
     padding-left: 5%;
+    padding-bottom: 5%;
+    
 }
 .half-section img{
+    margin-top: 20px;
     height: 550px;
     width: 500px;
     border-radius: 100%;
@@ -48,8 +53,30 @@ p{
     font-weight: 700; 
 }
 
-
-
 .top-section{
     margin-top: 25px;
+}
+
+.mid-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+
+#about-btn{
+    background-image: linear-gradient(45deg,#ff1f5a, #f85959);
+}
+
+#work-area{
+    height: 700px;
+    
+}
+#work{
+    margin-top:20px;
+    padding-top:20px;
+    text-align:center;
+}
+
+.latest-work{
+    background-color:aliceblue;
 }
